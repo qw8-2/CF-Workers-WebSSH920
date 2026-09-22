@@ -24,5 +24,8 @@ tag = "v1"
 new_sqlite_classes = ["SSHSessionDO"]
 
 routes = [
-  { pattern = "ssh.dymf.eu.cc", custom_domain = true }
+  { pattern = "ssh.example.com", custom_domain = true }
 ]
+
+# wrangler.toml
+name = 'cf-workers-webssh920'
