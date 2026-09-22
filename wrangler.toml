@@ -28,4 +28,4 @@ routes = [
 ]
 
 # wrangler.toml
-name = 'cf-workers-webssh920'
+name = 'cf-workers-webssh920.q8700286.workers.dev'
