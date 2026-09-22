@@ -22,3 +22,7 @@ class_name = "SSHSessionDO"
 [[migrations]]
 tag = "v1"
 new_sqlite_classes = ["SSHSessionDO"]
+
+routes = [
+  { pattern = "ssh.dymf.eu.cc", custom_domain = true }
+]
